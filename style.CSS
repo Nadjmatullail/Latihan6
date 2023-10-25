@@ -1,0 +1,187 @@
+/* css untuk header 1 */
+header {
+    background-color: #f89898;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: left ;
+    color: white;
+    text-align: center ;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+        }
+
+/* css untuk latar belakang body */
+body { 
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-photo/beauty-concept-close-up-portrait-attractive-caucasian-girl-with-beauty-natural-skin-isolated-pink-background-with-copy-space_1258-1107.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696982400&semt=ais) ;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+*{ scroll-behavior: smooth;}
+
+h1 {
+    font-size: 36px;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+/* css untuk outline */
+.outline {
+    outline-style: dotted;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: khaki;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.outline h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* css untuk list */
+.list {
+    outline-style: dotted;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: khaki;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list h2 {
+    font-size: 24px;
+    text-align: center;
+    background-color: darkkhaki;
+}
+
+ul {
+    list-style: square;
+}
+
+ul li {
+    margin: 10px;
+}
+
+/* css untuk tautan dalam list */
+ul li a {
+    text-decoration: none;
+    color: rgb(59, 10, 10);
+    font-weight: bold; /* teks lebih tebal */
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* css tekstur kulit wajah */
+.lail {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: khaki;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    outline-style: dotted;
+}
+
+.lail h2 {
+    font-size: 24px;
+    text-align: center;
+    color : black;
+    background-color: darkkhaki;
+}
+
+/* css untuk tissu dan kertas minyak */
+.tkm {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: khaki;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    outline-style: dotted;
+}
+
+.tkm h2 {
+    font-size: 24px;
+    text-align: center;
+    color : black;
+    background-color: darkkhaki; 
+}
+
+/* css untuk table didalam tkm */ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center; /* Menengahkan isi tabel */
+    font-family: 'Times New Roman', Times, serif
+}
+table thead {
+    background-color: #b5c930;
+    color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #100f0f;
+    padding: 8px;
+}
+
+/* css untuk tt */
+.tt {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: khaki;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    outline-style: dotted;
+}
+
+.tt h2 {
+    font-size: 24px;
+    text-align: center;
+    color : black;
+    background-color: darkkhaki;  
+}
+
+/* css untuk kwp */
+.kwp {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: khaki;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    outline-style: dotted;
+}
+
+.kwp h2 {
+    font-size: 24px;
+    text-align: center;
+    color : black;
+    background-color: darkkhaki;  
+}
+
+.footer {
+    background-color: #f89898;
+    padding-bottom: 4%;
+    text-align: center;
+    color: white;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif
